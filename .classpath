@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/application/Application"/>
+			<accessrule kind="accessible" pattern="javafx/event/*"/>
+			<accessrule kind="accessible" pattern="javafx/scene/**"/>
+			<accessrule kind="accessible" pattern="javafx/stage/*"/>
+			<accessrule kind="accessible" pattern="javafx/geometry/Insets"/>
+			<accessrule kind="accessible" pattern="ObservableList&lt;String&gt;.addAll(String[])"/>
+			<accessrule kind="accessible" pattern="javafx/collections/ObservableList"/>
+			<accessrule kind="accessible" pattern="javafx/collections/FXCollections"/>
+			<accessrule kind="accessible" pattern="javafx/geometry/Pos"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.21.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
